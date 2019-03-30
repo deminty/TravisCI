@@ -72,10 +72,12 @@ namespace TravisCILab
         {
             return double.Parse(x) - double.Parse(y);
         }
+
         public static double Multiply(string x, string y)
         {
             return double.Parse(x) * double.Parse(y);
         }
+
         public static double Divide(string x, string y)
         {
             return double.Parse(x) / double.Parse(y);
